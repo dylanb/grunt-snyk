@@ -1,7 +1,7 @@
 {
   "name": "grunt-snyk",
   "description": "Test for dependency vulnerabilities using Snyk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/dylanb/grunt-snyk",
   "author": {
     "name": "Dylan Barrell",
