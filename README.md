@@ -11,6 +11,13 @@ If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out th
 npm install grunt-snyk --save-dev
 ```
 
+You need to set up your Snyk authentication (API key). Go to [your account page](https://snyk.io/account/) and copy the API key. Then do the following commands
+
+```
+npm install -g snyk
+snyk auth YOUR_API_KEY_HERE
+```
+
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
